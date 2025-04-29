@@ -34,7 +34,7 @@
                       <p class="card-text">
                         Aqui você verá uma variedade de músicas do meu gosto, que pode virar o seu também.
                       </p>
-                      <button type="button" class="btn btn-link">Veja o projeto</button>
+                      <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
                     </div>
                 </div>
              </div>
@@ -47,7 +47,7 @@
                       <p class="card-text">
                         Aqui você verá minhas comidas preferidas.
                       </p>
-                      <button type="button" class="btn btn-link">Veja o projeto</button>
+                      <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
                     </div>
                 </div>
              </div>
@@ -60,7 +60,7 @@
                       <p class="card-text">
                         Aqui você verá esportes que gosto de assistir ou sei praticar.
                       </p>
-                      <button type="button" class="btn btn-link">Veja o projeto</button>
+                      <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
                     </div>
                 </div>
              </div>
@@ -68,6 +68,69 @@
         </div>
 
     </main>
+  
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Minhas músicas preferidas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          <p>Aqui você verá uma variedade de músicas do meu gosto, que pode virar o seu também.</p>
+          <img src="img/Músicas.jpg" alt="Imagem representativa do projeto de música">
+    
+          </div>
+          <div class="modal-footer">
+            <a href="https://www.youtube.com/watch?v=pM-jOfy_1jM&list=OLAK5uy_m67J5fxbGa3cRynA0HxdAuI1RBq6jJMhU">Pasta Stray kids</a>
+            <a href="https://www.youtube.com/watch?v=hLQl3WQQoQ0&list=RDEMTPfPURSbYpb0YHCKyIG37Q&start_radio=1">Pasta Adele</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Minhas comidas preferidas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          <p> Aqui você verá minhas comidas preferidas.</p>
+          <img src="img/Comida.jpg" alt="Imagem representativa do projeto de comida">
+    
+          </div>
+          <div class="modal-footer">
+            <a href="https://www.tudogostoso.com.br/receita/31593-pudim-de-leite-condensado.html">Receita de pudim</a>
+            <a href="https://www.tudogostoso.com.br/receita/178357-pao-caseiro.html">Receita de pão caseiro</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Meus esportes preferidos</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          <p> Aqui você verá esportes que gosto de assistir ou sei praticar.</p>
+          <img src="img/Esportes.jpg" alt="Imagem representativa do projeto de esportes">
+    
+          </div>
+          <div class="modal-footer">
+            <a href="https://www.youtube.com/watch?v=OYu70h3N4Vw">Aprenda a jogar xadrez</a>
+            <a href="https://www.youtube.com/watch?v=ZwSew6fPKaw">Jogo de volei</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer class="container py-5">
         <h2>Entre em contato</h2>
@@ -77,6 +140,7 @@
         <p class="my-5 text-center">© Copyright 2025. Produzido por Rafaelly Andrade</p>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
