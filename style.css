@@ -8,6 +8,12 @@
 
 body {
     font-family: "Chakra Petch", sans-serif;
+    color: var(--cor-principal);
+  }
+
+  .lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
   }
 
   h1, h2, h5 {
@@ -15,7 +21,7 @@ body {
   font-weight: 700;
 }
 
-footer a {
+footer a, .btn-link:hover {
     color: var(--cor-principal);
   }
   
